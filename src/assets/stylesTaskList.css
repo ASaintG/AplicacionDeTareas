@@ -1,0 +1,124 @@
+.container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 100vh;
+    padding: 20px;
+  }
+  
+  .form-container {
+    width: 300px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-right: 10px;
+  }
+  
+  form {
+    width: 100%;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 8px;
+  }
+  
+  input,
+  textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .saveUpdate,
+  .cancelUpdate {
+    width: auto;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 10px;
+  }
+  
+  .saveUpdate {
+    background-color: #2ecc71;
+    color: #fff;
+  }
+  
+  .cancelUpdate {
+    background-color: #ff6961;
+  }
+  
+  .task-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    padding: 20px;
+  }
+  
+  .task-list.hidden {
+    display: none;
+  }
+  
+  .task-card {
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 12px;
+    margin-bottom: 10px;
+    width: 300px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .task-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .round-checkbox {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 2px solid #333;
+    outline: none;
+    cursor: pointer;
+    margin-right: 8px;
+  }
+  
+  .round-checkbox:checked {
+    background-color: #2ecc71; 
+    border-color: #2ecc71; 
+  }
+  
+  .task-name {
+    flex: 1;
+    margin-left: 10px;
+    color: black; 
+    text-decoration: none; 
+  }
+  
+  .task-name.completed {
+    text-decoration: line-through; 
+  }
+  
+  .task-actions button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    margin-left: 10px;
+    color: red;
+  }
+  
+  .task-actions button:hover {
+    color: rgb(144, 4, 4);
+  }
+  
